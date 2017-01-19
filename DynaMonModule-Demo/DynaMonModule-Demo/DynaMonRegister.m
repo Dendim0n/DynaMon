@@ -20,7 +20,7 @@
     static NSString *class = @"DemoModuleViewController";
     
     NSDictionary *dic = [[NSDictionary alloc] initWithObjectsAndKeys:class,@"class",className ,@"name", nil];
-    printf("Start Register Class.");
+    printf("Start Register Class.\n");
     [[NSNotificationCenter defaultCenter] postNotificationName:@"RegisterClass" object:nil userInfo:dic];
 }
 

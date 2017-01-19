@@ -11,6 +11,7 @@ import UIKit
 class DynaMon: NSObject {
     
     static let shared = DynaMon()
+    private let lock = NSLock()
     
     override init() {
         super.init()
@@ -21,7 +22,9 @@ class DynaMon: NSObject {
     private var classDictionary = [String:AnyClass]()
     
     func registerServices(name:String,classToReg:AnyClass) {
+        lock.lock()
         classDictionary[name] = classToReg
+        lock.unlock()
     }
     
     func registerClass(_ sender:Notification) {
