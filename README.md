@@ -1,4 +1,4 @@
-#DynaMon - The Elegant Way to make App Modularization
+#DynaMon - The Elegant Way to make Modularized App
 
 DynaMon is a very simple way to make App Modularization.
 * Easy to use
