@@ -18,8 +18,10 @@ DynaMon is a very simple way to make App Modularization.
 
 ###How to use:
 
+In main app:
+
          let a = ModuleService.sharedInstance.getObject(name: "demo") as! UIViewController
          a.view.backgroundColor = .white
          present(a, animated: true, completion: nil)
 
-For more details, please check the source code.
+*For more details, please check the source code.*
