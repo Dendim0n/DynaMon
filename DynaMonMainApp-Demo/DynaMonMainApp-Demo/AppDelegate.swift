@@ -15,7 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var moduleService = DynaMon.shared
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        moduleService.registerInstance(name: "demoInstance", instanceClass: DemoInstance.self)
+        
         return true
     }
     

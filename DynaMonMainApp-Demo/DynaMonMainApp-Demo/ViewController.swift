@@ -27,5 +27,9 @@ class ViewController: UIViewController {
         present(a, animated: true, completion: nil)
     }
     
+    func findClass(testClass:AnyClass) {
+        (testClass as! DemoInstance.Type).shared
+    }
+    
 }
 

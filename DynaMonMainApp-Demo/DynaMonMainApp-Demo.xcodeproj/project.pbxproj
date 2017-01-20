@@ -14,6 +14,7 @@
 		40A1D0FC1E309CB8002AF525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A1D0FA1E309CB8002AF525 /* LaunchScreen.storyboard */; };
 		40A1D1041E309CD4002AF525 /* DynaMon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A1D1031E309CD4002AF525 /* DynaMon.swift */; };
 		40A1D1091E309E9B002AF525 /* DynaMonModule_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A1D1081E309E9B002AF525 /* DynaMonModule_Demo.framework */; };
+		40A1D10C1E3209A1002AF525 /* DemoInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A1D10B1E3209A1002AF525 /* DemoInstance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		40A1D1031E309CD4002AF525 /* DynaMon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynaMon.swift; sourceTree = "<group>"; };
 		40A1D1061E309E04002AF525 /* DynaMonModule-Demo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "DynaMonModule-Demo.framework"; path = "../DynaMonModule-Demo/build/Debug-iphoneos/DynaMonModule-Demo.framework"; sourceTree = "<group>"; };
 		40A1D1081E309E9B002AF525 /* DynaMonModule_Demo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynaMonModule_Demo.framework; path = "../../../../Library/Developer/Xcode/DerivedData/DynaMon-ctzrhsnckmasuwclgjsjrobbxbol/Build/Products/Debug-iphonesimulator/DynaMonModule_Demo.framework"; sourceTree = "<group>"; };
+		40A1D10B1E3209A1002AF525 /* DemoInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoInstance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				40A1D0F11E309CB8002AF525 /* AppDelegate.swift */,
 				40A1D0F31E309CB8002AF525 /* ViewController.swift */,
+				40A1D10B1E3209A1002AF525 /* DemoInstance.swift */,
 				40A1D1031E309CD4002AF525 /* DynaMon.swift */,
 				40A1D0F51E309CB8002AF525 /* Main.storyboard */,
 				40A1D0F81E309CB8002AF525 /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 				40A1D1041E309CD4002AF525 /* DynaMon.swift in Sources */,
 				40A1D0F41E309CB8002AF525 /* ViewController.swift in Sources */,
 				40A1D0F21E309CB8002AF525 /* AppDelegate.swift in Sources */,
+				40A1D10C1E3209A1002AF525 /* DemoInstance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
