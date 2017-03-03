@@ -4,15 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DynaMonModule-Demo.xcscheme</key>
+		<key>DynaMonModule-Demo2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>40A1D0AC1E309C47002AF525</key>
+		<key>40FD20FA1E6916B5006D0930</key>
 		<dict>
 			<key>primary</key>
 			<true/>

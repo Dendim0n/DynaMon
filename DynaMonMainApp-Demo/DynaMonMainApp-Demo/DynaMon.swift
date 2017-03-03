@@ -48,7 +48,8 @@ class DynaMon: NSObject {
         if let someClass = classDictionary[name] {
             return someClass.alloc()
         } else {
-            return UIViewController()
+            
+            return NSObject()
         }
     }
     

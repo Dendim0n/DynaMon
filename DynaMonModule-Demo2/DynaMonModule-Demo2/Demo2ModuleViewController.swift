@@ -8,13 +8,13 @@
 
 import UIKit
 
-@objc(DemoModuleViewController)
-public class DemoModuleViewController: UIViewController {
+@objc(Demo2ModuleViewController)
+public class Demo2ModuleViewController: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
         let btn = UIButton()
-        btn.setTitle("This is the DemoModule1 - Main ViewController", for: .normal)
+        btn.setTitle("This is the Module2 - Main ViewController", for: .normal)
         btn.setTitleColor(.black, for: .normal)
         btn.sizeToFit()
         btn.center = view.center

@@ -14,6 +14,7 @@
 		40A1D0FC1E309CB8002AF525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A1D0FA1E309CB8002AF525 /* LaunchScreen.storyboard */; };
 		40A1D1041E309CD4002AF525 /* DynaMon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A1D1031E309CD4002AF525 /* DynaMon.swift */; };
 		40A1D1091E309E9B002AF525 /* DynaMonModule_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A1D1081E309E9B002AF525 /* DynaMonModule_Demo.framework */; };
+		40FD21131E6917BA006D0930 /* DynaMonModuleDemo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FD21121E6917BA006D0930 /* DynaMonModuleDemo2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		40A1D1031E309CD4002AF525 /* DynaMon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynaMon.swift; sourceTree = "<group>"; };
 		40A1D1061E309E04002AF525 /* DynaMonModule-Demo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "DynaMonModule-Demo.framework"; path = "../DynaMonModule-Demo/build/Debug-iphoneos/DynaMonModule-Demo.framework"; sourceTree = "<group>"; };
 		40A1D1081E309E9B002AF525 /* DynaMonModule_Demo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynaMonModule_Demo.framework; path = "../../../../Library/Developer/Xcode/DerivedData/DynaMon-ctzrhsnckmasuwclgjsjrobbxbol/Build/Products/Debug-iphonesimulator/DynaMonModule_Demo.framework"; sourceTree = "<group>"; };
+		40FD21101E69175A006D0930 /* DynaMonModule-Demo2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "DynaMonModule-Demo2.framework"; path = "../DynaMonModule-Demo2/build/Debug-iphoneos/DynaMonModule-Demo2.framework"; sourceTree = "<group>"; };
+		40FD21121E6917BA006D0930 /* DynaMonModuleDemo2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynaMonModuleDemo2.framework; path = "../../../../Library/Developer/Xcode/DerivedData/DynaMon-ctzrhsnckmasuwclgjsjrobbxbol/Build/Products/Debug-iphonesimulator/DynaMonModuleDemo2.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40FD21131E6917BA006D0930 /* DynaMonModuleDemo2.framework in Frameworks */,
 				40A1D1091E309E9B002AF525 /* DynaMonModule_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +79,8 @@
 		40A1D1051E309E03002AF525 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40FD21121E6917BA006D0930 /* DynaMonModuleDemo2.framework */,
+				40FD21101E69175A006D0930 /* DynaMonModule-Demo2.framework */,
 				40A1D1081E309E9B002AF525 /* DynaMonModule_Demo.framework */,
 				40A1D1061E309E04002AF525 /* DynaMonModule-Demo.framework */,
 			);
@@ -113,6 +119,7 @@
 				TargetAttributes = {
 					40A1D0ED1E309CB8002AF525 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DG237PBV6R;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -278,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DG237PBV6R;
 				INFOPLIST_FILE = "DynaMonMainApp-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ned.DynaMonMainApp-Demo";
@@ -290,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DG237PBV6R;
 				INFOPLIST_FILE = "DynaMonMainApp-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ned.DynaMonMainApp-Demo";
