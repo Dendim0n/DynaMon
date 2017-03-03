@@ -8,6 +8,9 @@
 
 #import "DynaMonRegister.h"
 
+#define className @"demo"
+#define class @"DemoModuleViewController"
+
 @implementation DynaMonRegister
 
 +(void)load {
@@ -16,11 +19,11 @@
 }
 
 +(void)RegisterClass {
-    static NSString *className = @"demo";
-    static NSString *class = @"DemoModuleViewController";
     
     NSDictionary *dic = [[NSDictionary alloc] initWithObjectsAndKeys:class,@"class",className ,@"name", nil];
+#if DEBUG
     printf("Start Register Class.\n");
+#endif
     [[NSNotificationCenter defaultCenter] postNotificationName:@"RegisterClass" object:nil userInfo:dic];
 }
 

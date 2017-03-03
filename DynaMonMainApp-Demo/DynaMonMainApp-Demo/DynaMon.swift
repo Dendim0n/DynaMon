@@ -23,7 +23,11 @@ class DynaMon: NSObject {
     
     func registerServices(name:String,classToReg:AnyClass) {
         lock.lock()
-        classDictionary[name] = classToReg
+        if classDictionary[name] != nil {
+            fatalError("Already registered a same class name.")
+        } else {
+            classDictionary[name] = classToReg
+        }
         lock.unlock()
     }
     
