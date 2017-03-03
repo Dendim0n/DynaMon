@@ -48,8 +48,7 @@ class DynaMon: NSObject {
         if let someClass = classDictionary[name] {
             return someClass.alloc()
         } else {
-            
-            return NSObject()
+            fatalError("Can't find a class named:" + name)
         }
     }
     

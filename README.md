@@ -21,10 +21,10 @@ DynaMon is a very simple way to make App Modularization.
 
 3. Expose the class of framework _you want to register_ to Obj-C:
 
-     @objc(DemoModuleViewController) //IMPORTANT
-     public class DemoModuleViewController: UIViewController {
-         //REMEMBER TO SET PUBLIC
-     }
+         @objc(DemoModuleViewController) //IMPORTANT
+         public class DemoModuleViewController: UIViewController {
+            //REMEMBER TO SET PUBLIC
+         }
 
 ###How to get registered object:
 
